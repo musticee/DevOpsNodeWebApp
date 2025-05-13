@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Anpassung für Lernjournal 09');
+  res.send('Weitere Anpassung für Lernjournal 09. Lokal und auf der Cloud ersichtlich');
 });
 
 app.listen(PORT, HOST);
